@@ -4,51 +4,306 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Tax Saving Consultancy</title>
+
 <style>
-body{font-family:Arial;margin:0;background:#f4f7fb}
-header{background:#003366;color:#fff;text-align:center;padding:30px}
-section{padding:20px}
-.card{background:#fff;padding:15px;margin:10px;border-radius:8px;box-shadow:0 2px 5px #ccc}
-.btn{background:#25D366;color:#fff;padding:10px 15px;text-decoration:none;border-radius:5px}
-footer{background:#003366;color:#fff;text-align:center;padding:15px}
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial,sans-serif;
+}
+
+body{
+background:#f5f7fa;
+color:#333;
+}
+
+header{
+background:linear-gradient(135deg,#002147,#0a58ca);
+color:white;
+padding:20px;
+display:flex;
+align-items:center;
+justify-content:center;
+gap:20px;
+flex-wrap:wrap;
+}
+
+.logo{
+width:140px;
+background:white;
+padding:8px;
+border-radius:10px;
+}
+
+.header-text h1{
+font-size:45px;
+}
+
+.header-text p{
+margin-top:8px;
+font-size:18px;
+}
+
+.hero{
+padding:60px 20px;
+text-align:center;
+background:white;
+}
+
+.hero h2{
+font-size:36px;
+color:#003366;
+margin-bottom:15px;
+}
+
+.hero p{
+font-size:18px;
+line-height:1.8;
+}
+
+.btn{
+display:inline-block;
+background:#25D366;
+color:white;
+padding:14px 25px;
+margin-top:20px;
+text-decoration:none;
+border-radius:6px;
+font-weight:bold;
+}
+
+.section{
+padding:50px 10%;
+}
+
+.section h2{
+text-align:center;
+color:#003366;
+margin-bottom:30px;
+font-size:32px;
+}
+
+.services{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:20px;
+}
+
+.card{
+background:white;
+padding:20px;
+border-radius:10px;
+box-shadow:0 2px 10px rgba(0,0,0,0.1);
+text-align:center;
+}
+
+.card h3{
+color:#0a58ca;
+margin-bottom:10px;
+}
+
+.gov-links{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:15px;
+}
+
+.gov-links a{
+display:block;
+background:#0a58ca;
+color:white;
+padding:15px;
+text-align:center;
+text-decoration:none;
+border-radius:8px;
+font-weight:bold;
+}
+
+.contact{
+background:white;
+padding:25px;
+border-radius:10px;
+box-shadow:0 2px 10px rgba(0,0,0,0.1);
+}
+
+.contact p{
+margin:10px 0;
+}
+
+footer{
+background:#002147;
+color:white;
+text-align:center;
+padding:20px;
+margin-top:40px;
+}
+
+.whatsapp{
+position:fixed;
+bottom:20px;
+right:20px;
+background:#25D366;
+color:white;
+padding:15px 20px;
+border-radius:50px;
+text-decoration:none;
+font-weight:bold;
+}
 </style>
 </head>
+
 <body>
 
 <header>
+<img src="logo.png" class="logo" alt="Logo">
+
+<div class="header-text">
 <h1>Tax Saving Consultancy</h1>
-<p>GST Registration | ITR Filing | TDS Return | Udyam Registration</p>
+<p>GST • ITR • TDS • FSSAI • MSME • Trademark • IEC • DSC</p>
+<p>📞 8377897678 | 📧 khsuhnoorali14@gmail.com</p>
+</div>
 </header>
 
-<section>
+<section class="hero">
+<h2>One Stop Solution for GST, Income Tax & Business Compliance</h2>
+
+<p>
+GST Registration | GST Return Filing | ITR Filing |
+TDS Return Filing | Udyam Registration |
+Food License (FSSAI) | Trademark Registration |
+IEC Code | DSC | EPF | ESIC
+</p>
+
+<a href="https://wa.me/918377897678" class="btn">
+WhatsApp Now
+</a>
+</section>
+
+<section class="section">
 <h2>Our Services</h2>
-<div class="card">GST Registration</div>
-<div class="card">GST Return Filing</div>
-<div class="card">ITR Filing</div>
-<div class="card">TDS Return Filing</div>
-<div class="card">Udyam Registration</div>
-<div class="card">Business Consultancy</div>
+
+<div class="services">
+
+<div class="card">
+<h3>GST Registration</h3>
+<p>New GST Registration Services</p>
+</div>
+
+<div class="card">
+<h3>GST Return Filing</h3>
+<p>Monthly & Annual GST Returns</p>
+</div>
+
+<div class="card">
+<h3>ITR Filing</h3>
+<p>Income Tax Return Filing</p>
+</div>
+
+<div class="card">
+<h3>TDS Return</h3>
+<p>TDS Return Preparation & Filing</p>
+</div>
+
+<div class="card">
+<h3>Udyam Registration</h3>
+<p>MSME Registration Services</p>
+</div>
+
+<div class="card">
+<h3>Food License (FSSAI)</h3>
+<p>Food License Registration</p>
+</div>
+
+<div class="card">
+<h3>Trademark Registration</h3>
+<p>Trademark Filing & Registration</p>
+</div>
+
+<div class="card">
+<h3>IEC Code</h3>
+<p>Import Export Code Registration</p>
+</div>
+
+<div class="card">
+<h3>Digital Signature (DSC)</h3>
+<p>Class 3 DSC Services</p>
+</div>
+
+<div class="card">
+<h3>EPF Registration</h3>
+<p>EPFO Registration Assistance</p>
+</div>
+
+<div class="card">
+<h3>ESIC Registration</h3>
+<p>ESIC Registration Assistance</p>
+</div>
+
+<div class="card">
+<h3>Business Consultancy</h3>
+<p>Professional Business Guidance</p>
+</div>
+
+</div>
 </section>
 
-<section>
+<section class="section">
 <h2>Government Portals</h2>
-<p><a href="https://www.gst.gov.in">GST Portal</a></p>
-<p><a href="https://www.incometax.gov.in">Income Tax Portal</a></p>
-<p><a href="https://udyamregistration.gov.in">Udyam Portal</a></p>
-<p><a href="https://www.tdscpc.gov.in">TRACES TDS</a></p>
+
+<div class="gov-links">
+
+<a href="https://www.gst.gov.in" target="_blank">GST Portal</a>
+
+<a href="https://www.incometax.gov.in" target="_blank">Income Tax Portal</a>
+
+<a href="https://udyamregistration.gov.in" target="_blank">Udyam Registration</a>
+
+<a href="https://www.tdscpc.gov.in" target="_blank">TRACES TDS</a>
+
+<a href="https://foscos.fssai.gov.in" target="_blank">FSSAI Portal</a>
+
+<a href="https://www.epfindia.gov.in" target="_blank">EPFO Portal</a>
+
+<a href="https://www.esic.gov.in" target="_blank">ESIC Portal</a>
+
+</div>
 </section>
 
-<section>
+<section class="section">
 <h2>Contact Us</h2>
-<p>📞 8377897678</p>
-<p>📧 khsuhnoorali14@gmail.com</p>
-<p>📍 Near Azhari Telecom, Opp. C-2 Red Light, Dabri More Metro Station, Sitapuri Part-1, New Delhi - 110045</p>
-<p><a class="btn" href="https://wa.me/918377897678">WhatsApp Now</a></p>
+
+<div class="contact">
+
+<p><strong>Phone:</strong> 8377897678</p>
+
+<p><strong>Email:</strong> khsuhnoorali14@gmail.com</p>
+
+<p>
+<strong>Office Address:</strong><br>
+Near Azhari Telecom,<br>
+Opp. C-2 Red Light,<br>
+Dabri More Metro Station,<br>
+Sitapuri Part-1,<br>
+New Delhi - 110045
+</p>
+
+<p>
+<a href="https://wa.me/918377897678" class="btn">
+Chat on WhatsApp
+</a>
+</p>
+
+</div>
 </section>
 
 <footer>
-© 2026 Tax Saving Consultancy
+© 2026 Tax Saving Consultancy | All Rights Reserved
 </footer>
+
+<a href="https://wa.me/918377897678" class="whatsapp">
+WhatsApp
+</a>
 
 </body>
 </html>
