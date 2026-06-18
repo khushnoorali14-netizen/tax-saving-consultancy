@@ -460,11 +460,19 @@ New Delhi - 110045
 </p>
 
 <form action="https://formsubmit.co/khushnoorali14@gmail.com" method="POST" class="contact-form">
-<input type="text" placeholder="Your Name">
-<input type="tel" placeholder="Mobile Number">
-<input type="email" placeholder="Email Address">
-<textarea rows="5" placeholder="Your Query"></textarea>
+
+<input type="hidden" name="_captcha" value="false">
+
+<input type="text" name="Name" placeholder="Your Name" required>
+
+<input type="tel" name="Mobile" placeholder="Mobile Number" required>
+
+<input type="email" name="Email" placeholder="Email Address" required>
+
+<textarea name="Query" rows="5" placeholder="Your Query" required></textarea>
+
 <button type="submit">Submit Inquiry</button>
+
 </form>
 
 </div>
